@@ -1,1 +1,28 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: green;
+}
+
+#contenido-carta {
+  width: 250px;
+  height: 350px;
+  border: 1px solid #000;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.numero-centro {
+  font-size: 4em;
+}
+
+.palo-superior-izquierda,
+.palo-inferior-derecha {
+  font-size: 2em;
+}
